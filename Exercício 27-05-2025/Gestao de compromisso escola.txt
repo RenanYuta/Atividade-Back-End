@@ -1,0 +1,23 @@
+classe compromissos
+    atributos;
+        reunioes,
+        entregas_trabalho,
+        eventos_escolares
+
+    metodos:
+        organizarReuniao();
+        entregarTrabalho();
+        corrigirTrabalho();
+        organizarEventos();
+    
+a1;
+a1.reunioes = 1;
+a1.entregas_trabalhos = 2;
+a1.eventos_escolares = 3;
+a1.organizarReuniao();
+a1.entregarTrabalho();
+a1.corrigirTrabalho();
+a1.organizarEventos();
+        
+
+

@@ -1,0 +1,29 @@
+classe livros;
+    atributos: 
+        título;
+        autor;
+        editora; 
+        status;
+        devolução;
+    
+    metodos:
+        emprestimo():
+            se status = disponivel
+                mostrar "Livro disponivel"
+            se status = reservado/disponivel
+                mostrar "Livro não disponivel"
+        prazo():
+            se data_atual = devolução
+                mostrar "O livro deve ser devolvido ainda hoje"
+            se data_atual > devolução
+                mostrar "O livro deve ser devolvido obrigatoriamente"
+
+a1;
+a1.título = "Cronicas";
+a1.autor = "Carlos";
+a1.editora = "fadsf";
+a1.status = disponivel;
+            
+            
+
+            
