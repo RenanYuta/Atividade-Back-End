@@ -1,0 +1,25 @@
+Classe pong:
+    Atributos:
+        pontos
+        campo
+        bola
+    
+
+    Métodos: 
+        pontuar():
+            se bola bater no campo = pontos++
+
+        ganhar():
+            se j1.pontuar() < j2.pontuar() {
+                mostrar "Você ganhou!"
+            }
+            senão {
+                mostrar "Você perdeu"
+            }
+        
+j1 -> objeto jogador 1
+j2 -> objeto jogador 2
+j1.pontuar()
+j1.ganhar()
+
+         
